@@ -1,0 +1,12 @@
+darmo==0.1.15
+timm==0.9.16
+kornia==0.7.1
+opencv-python==4.9.0.80
+ptflops==0.7.2.2
+h5py==3.10.0
+scikit-image==0.22.0
+requests==2.32.0
+matplotlib==3.8.3
+gdown==5.1.0
+PyYAML==6.0.1
+codecarbon==2.3.4

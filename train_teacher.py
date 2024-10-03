@@ -12,18 +12,21 @@ from PKD.models.build_model import build_model, cal_flops_params
 from PKD.utils.utils import OwnLogging
 import PKD.utils.utils as utils
 from PKD.utils.carbon import CarbonAI
+# Import the configuration
+import config
 import warnings
 warnings.filterwarnings("ignore")
 
 parser = ArgumentParser()
+
+parser.add_argument("--dataset_dir", type=str, default=config.DATASET_PATH)
+parser.add_argument('--no_workers',type=int, default=config.NO_WORKER)
+parser.add_argument('--log_interval', type=int, default=config.LOS_INTERVAL)
+
 parser.add_argument("--learning_rate", type=float, default=0.001)
-parser.add_argument("--batch_size", type=int, default=64)
-parser.add_argument("--dataset_dir", type=str, default="/home/tercy/proj/datasets/saliency/saliency/")
 parser.add_argument('--input_size_h',default=384, type=int)
 parser.add_argument('--input_size_w',default=384, type=int)
-parser.add_argument('--no_workers',default=12, type=int)
 parser.add_argument('--no_epochs',default=20, type=int)
-parser.add_argument('--log_interval',default=20, type=int)
 parser.add_argument('--lr_sched',default=True, type=bool)
 parser.add_argument('--model_val_path',default="model.pt", type=str)
 parser.add_argument('--model_salicon_path',default="model_salicon.pt", type=str)
