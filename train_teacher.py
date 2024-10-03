@@ -24,6 +24,7 @@ parser.add_argument('--no_workers',type=int, default=config.NO_WORKER)
 parser.add_argument('--log_interval', type=int, default=config.LOS_INTERVAL)
 
 parser.add_argument("--learning_rate", type=float, default=0.001)
+parser.add_argument("--batch_size", type=int, default=128)
 parser.add_argument('--input_size_h',default=384, type=int)
 parser.add_argument('--input_size_w',default=384, type=int)
 parser.add_argument('--no_epochs',default=20, type=int)
