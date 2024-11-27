@@ -1,19 +1,28 @@
 # Semi-PKD: Semi-Supervised Pseudoknowledge Distillation for Saliency Prediction
 
+This paper has been published to ICT Express.
+
+![](https://img.shields.io/badge/-PyTorch%20Implementation-blue.svg?logo=pytorch)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+
+## Overview
+
+This repository contains the source code for Semi-PKD, which accompanies the research paper titled **Semi-PKD: Semi-Supervised Pseudoknowledge Distillation for Saliency Prediction**. The purpose of this repository is to provide transparency and reproducibility of the research results presented in the paper.
+
 **This code is based on the implementation of  [EML-NET-Saliency](https://github.com/SenJia/EML-NET-Saliency), [SimpleNet](https://github.com/samyak0210/saliency), [MSI-Net](https://github.com/alexanderkroner/saliency), and [EEEA-Net](https://github.com/chakkritte/EEEA-Net).**
 
 ## Prerequisite for server
- - Tested on Ubuntu OS version 20.04.4 LTS
- - Tested on Python 3.6.13
- - Tested on CUDA 11.6
- - Tested on PyTorch 1.10.2 and TorchVision 0.11.3
- - Tested on NVIDIA V100 32 GB (four cards)
+ - Tested on Ubuntu OS version 22.04 LTS
+ - Tested on Python 3.11.8
+ - Tested on CUDA 12.3
+ - Tested on PyTorch 2.2.1 and TorchVision 0.17.1
+ - Tested on NVIDIA RTX 4090 24 GB
 
 ### Cloning source code
 
 ```
-git clone https://github.com/chakkritte/PKD/
-cd PKD
+git clone https://github.com/chakkritte/Semi-PKD/
+cd Semi-PKD
 mkdir data
 ```
 
@@ -47,9 +56,9 @@ PKD
 ### Creating new environments
 
 ```
-conda create -n pkd python=3.6.13
-conda activate pkd
-conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+conda create -n salnas python=3.11.8
+conda activate salnas
+conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 ```
 
 ### Install Requirements
@@ -58,19 +67,13 @@ conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 pip install -r requirements.txt --no-cache-dir
 ```
 
-## Usage
-
-### Training on Salicon dataset (Teacher: OFA595, Student: EEEA-C2)
-```
-python main.py --student eeeac2 --teacher ofa595 --dataset salicon --model_val_path model_salicon.pt
-```
-
 ## Citation
 
 If you use Semi-PKD or any part of this research, please cite our paper:
 ```
 ```
 
-## License 
+## License
 
-Apache-2.0 License
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
