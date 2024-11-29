@@ -1,13 +1,15 @@
-# Semi-PKD: Semi-Supervised Pseudoknowledge Distillation for Saliency Prediction
+# Semi-PKD: Semi-supervised Pseudoknowledge Distillation for saliency prediction
 
 This paper has been published to ICT Express.
+
+This offical implementation of Semi-PKD (Semi-Supervised Pseudoknowledge Distillation) from Semi-PKD: Semi-supervised Pseudoknowledge Distillation for saliency prediction by [Chakkrit Termritthikun](https://chakkritte.github.io/cv/).
 
 ![](https://img.shields.io/badge/-PyTorch%20Implementation-blue.svg?logo=pytorch)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
 ## Overview
 
-This repository contains the source code for Semi-PKD, which accompanies the research paper titled **Semi-PKD: Semi-Supervised Pseudoknowledge Distillation for Saliency Prediction**. The purpose of this repository is to provide transparency and reproducibility of the research results presented in the paper.
+This repository contains the source code for Semi-PKD, which accompanies the research paper titled **Semi-PKD: Semi-supervised Pseudoknowledge Distillation for saliency prediction**. The purpose of this repository is to provide transparency and reproducibility of the research results presented in the paper.
 
 **This code is based on the implementation of  [EML-NET-Saliency](https://github.com/SenJia/EML-NET-Saliency), [SimpleNet](https://github.com/samyak0210/saliency), [MSI-Net](https://github.com/alexanderkroner/saliency), and [EEEA-Net](https://github.com/chakkritte/EEEA-Net).**
 
