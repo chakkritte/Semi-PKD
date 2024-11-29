@@ -1,6 +1,8 @@
 # Semi-PKD: Semi-supervised Pseudoknowledge Distillation for saliency prediction
 
-This paper has been published to ICT Express.
+**This paper has been published to ICT Express.**
+
+Paper: [ICT Express](https://doi.org/10.1016/j.icte.2024.11.004)
 
 This offical implementation of Semi-PKD (Semi-Supervised Pseudoknowledge Distillation) from Semi-PKD: Semi-supervised Pseudoknowledge Distillation for saliency prediction by [Chakkrit Termritthikun](https://chakkritte.github.io/cv/).
 
