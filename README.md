@@ -33,7 +33,7 @@ mkdir data
 ## The dataset folder structure:
 
 ```
-PKD
+Semi-PKD
 |__ data
     |_ salicon
       |_ fixations
