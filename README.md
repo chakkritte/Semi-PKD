@@ -60,8 +60,8 @@ Semi-PKD
 ### Creating new environments
 
 ```
-conda create -n salnas python=3.11.8
-conda activate salnas
+conda create -n semipkd python=3.11.8
+conda activate semipkd
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 ```
 
