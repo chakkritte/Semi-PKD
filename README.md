@@ -75,8 +75,7 @@ pip install -r requirements.txt --no-cache-dir
 
 If you use Semi-PKD or any part of this research, please cite our paper:
 ```
-
-@article{TERMRITTHIKUN2025364,
+@article{TERMRITTHIKUN2025SemiPKD,
  title = "{Semi-PKD: Semi-supervised Pseudoknowledge Distillation for saliency prediction}",
  journal = {ICT Express},
  volume = {11},
@@ -87,8 +86,6 @@ If you use Semi-PKD or any part of this research, please cite our paper:
  doi = {https://doi.org/10.1016/j.icte.2024.11.004},
  author = "{Chakkrit Termritthikun and Ayaz Umer and Suwichaya Suwanwimolkul and Ivan Lee}",
 }
-
-
 ```
 
 ## License
